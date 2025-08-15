@@ -6,9 +6,10 @@ A Python program that matches resumes with job descriptions using TF-IDF vectori
 
 ##  Installation
 
-1. Open a terminal in your project folder:
+1. Clone this repository:
    ```bash
-   cd "C:\Users\user\resume_match_project"
+   git clone https://github.com/yourusername/Resume_Job_Matcher.git
+   cd C:\Users\user\resume_match_project
    ```
 2.Install dependencies:
  ```bash
