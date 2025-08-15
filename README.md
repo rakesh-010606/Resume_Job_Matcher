@@ -11,9 +11,9 @@ A Python program that matches resumes with job descriptions using TF-IDF vectori
    cd "C:\Users\user\resume_match_project"
    ```
 2.Install dependencies:
-     ```bash
-     pip install -r mandatory.txt
-     ```
+ ```bash
+   pip install -r mandatory.txt
+ ```
 
 ## Run the program
 ```bash
