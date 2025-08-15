@@ -4,7 +4,7 @@ A Python program that matches resumes with job descriptions using TF-IDF vectori
 
 ---
 
-## 🛠 Installation
+##  Installation
 
 1. Open a terminal in your project folder:
    ```bash
@@ -15,9 +15,9 @@ A Python program that matches resumes with job descriptions using TF-IDF vectori
    pip install -r mandatory.txt
    ```
 
-### Run the program
+## Run the program
 ```bash
- python model2.py
+   python model2.py
 ```
 
 ---
