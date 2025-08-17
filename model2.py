@@ -43,11 +43,10 @@ jobdesc_tfidf=tfidf.transform(df['jobdesc'])
 # Label encode categorical columns
 from sklearn.preprocessing import LabelEncoder
 
-le_gender=LabelEncoder()
-le_race=LabelEncoder()
-df['Gender_enc']=le_gender.fit_transform(df['Gender'])
-df['Race_enc']=le_race.fit_transform(df['Race'])
-df['Ethnicity_enc']=le_race.fit_transform(df['Ethnicity'])
+le=LabelEncoder()
+df['Gender_enc']=le.fit_transform(df['Gender'])
+df['Race_enc']=le.fit_transform(df['Race'])
+df['Ethnicity_enc']=le.fit_transform(df['Ethnicity'])
 
 extra_features=df[['Age', 'Gender_enc', 'Race_enc', 'Ethnicity_enc']].values #numpy format
 
@@ -79,5 +78,6 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Precision:", precision_score(y_test, y_pred))
 print("Recall:", recall_score(y_test, y_pred))
 print("F1 Score:", f1_score(y_test, y_pred))
+
 
 
