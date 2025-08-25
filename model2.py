@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
 
 # Loading dataset
 df = pd.read_csv('job_applicant_dataset.csv')
@@ -78,6 +77,7 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Precision:", precision_score(y_test, y_pred))
 print("Recall:", recall_score(y_test, y_pred))
 print("F1 Score:", f1_score(y_test, y_pred))
+
 
 
 
